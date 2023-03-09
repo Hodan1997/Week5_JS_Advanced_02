@@ -38,7 +38,7 @@ console.log("This is example result: ", fred.task());
 */
 class GameObject{
   constructor(attr){
-    this.createdAT = attr.createdAT;
+    this.createdAt= attr.createdAt;
     this.dimensions = attr.dimensions;
     this.healthPoints = attr.healthPoints;
     this.name = attr.name;
@@ -101,7 +101,7 @@ greet() {
 
 
   const mage = new Humanoid({
-    createdAt: new Date("Today's date"), // I tried this to 03/08/2023
+    createdAt: new Date("03/09/2023"), // I tried this to 03/08/2023
     dimensions: {
       length: 2,
       width: 1,
@@ -117,7 +117,7 @@ greet() {
   });
 
   const swordsman = new Humanoid({
-    createdAt: new Date("Today's date"),
+    createdAt: new Date("03/09/2023"),
     dimensions: {
       length: 2,
       width: 2,
@@ -134,7 +134,7 @@ greet() {
   });
 
   const archer = new Humanoid({
-    createdAt: new Date("Today's date"), // I tried this to 03/08/2023
+    createdAt: new Date("03/09/2023"), // I tried this to 03/08/2023
     dimensions: {
       length: 1,
       width: 2,
